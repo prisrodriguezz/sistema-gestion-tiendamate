@@ -1,0 +1,368 @@
+:root{ /*color de todas las fuentes*/
+    --color-white:#FFFFFF;
+}
+
+*{
+    box-sizing: border-box; /*Para ocupar todo el ancho del navegador*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background: #F7F8F8;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-color: #bcc49f;*/
+    background-color: #d1dab0;
+}
+
+/*----> Estilos barra de navegación*/
+
+/* Cambiar el color del texto de la barra de navegación */
+.navbar-nav .nav-link {
+    /*color: #592B02;*/
+    color: #271201;
+    font-size: 18px;
+}
+
+.navbar-nav li a:hover{
+    padding: 5px 10px;
+    background: #ACBB78;
+    color: #000;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+/*Botones inicio de sesion y registro en barra de navegacion*/
+.navbar-nav div a:hover, .navbar-nav div a:active {
+    font-weight: bold; /* Hace que el texto sea más negrita */
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse sobre el enlace */
+}
+
+/*Nombre de la marca*/
+.navbar-brand span{
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*ESTILOS DE LA BARRA DESPLAZABLE ANULADA (nav.php)*/
+/*Desplazamiento fila superior*/
+.scrolling-container {
+    overflow: hidden; /* Oculta el contenido que se desborda del contenedor */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.scrolling-text {
+    margin: 5px;
+    color: #2D351E;
+    font-size: 14px;
+    display: inline-block; /* Permite que el texto se desplace horizontalmente */
+    animation: scrollRight 5s linear infinite; /* Nombre de la animación, duración, tipo de aceleración y repetición */
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(100%); /* Sin desplazamiento al principio */
+    }
+    100% {
+        transform: translateX(-100%); /* Desplazamiento completo hacia la izquierda */
+    }
+}
+
+.nav-link.active {
+    color: red; /* Cambia el color del texto a rojo */
+}
+
+
+/*----> Estilos footer*/
+#redesSociales:hover{
+    padding: 5px 10px;
+    background: #ACBB78;
+    color: #000;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#filasFooter{
+    cursor: default;
+}
+
+#navegacion:hover{
+    padding: 5px 10px;
+    background: #ACBB78;
+    color: #000;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+
+/* ----> Estilo carrusel pagina quienes somos*/
+.slider-box{
+    width: 500px; /*Tamaño carrusel*/
+    height: auto;
+    margin: 5px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul{
+    display:flex;
+    padding: 0;
+    width: 1689px; /* 563px * 3 */
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 500px;
+    list-style: none;
+    position: relative;
+}
+
+.slider-box img{
+    width: 100%;
+    height: auto; /* Esto mantiene la proporción de aspecto */
+}
+
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
+
+#textoQuienesSomosPrincipal{
+    text-align: justify;
+    font-size: 23px;
+}
+
+#textoQuienesSomos{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.fst-italic{
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+/*----> Estilos pagina principal*/
+.text{
+    background-color: #958C4B;
+    /*width: 100%;*/
+    margin: 0;
+}
+
+.text h4{
+    text-align: justify;
+    font-size: 25px;
+    color:#000;
+}
+
+.text h4 p{
+    text-align: justify;
+    font-size: 25px;
+    color:#592B02;
+}
+
+.text h3{
+    text-align: justify;
+    font-size: 27px;
+    color:#000;
+}
+
+#ImagenPrincipal{
+    height: 100%;
+}
+
+#botonPaginaPrincipal{
+    padding: 10px;
+    margin-top: 25px;
+}
+
+/*ESTILOS TARJETAS PRODUCTOS DESTACADOS*/
+
+.card-img-top{
+    border-radius:45px;
+    padding: 15px;
+}
+
+.btn-primary{
+    border-radius:50px;
+    width: 120px;
+}
+
+/* Cambiar el color del botón btn-primary */
+.btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-primary:hover{
+    background-color: #ACBB78;
+    border-color: #000;
+}
+
+/* Cambiar el color de fondo de la tarjeta */
+.card {
+    background-color: #ACBB78;
+    border-color: #ACBB78;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.6);
+    transform: translateY(-3%);
+}
+
+.card-body{
+    padding: 15px;
+    text-align: justify;
+}
+
+.card-body p{
+    color: #3f3d3d;
+}
+
+.container h1{
+    cursor: default;
+}
+
+
+/*Estilo pagina: Contacto*/
+ul li a:hover, ul li a:active{
+    font-weight: bold; /* Hace que el texto sea más negrita */
+    text-decoration: underline; /* Agrega un subrayado */
+}
+  
+#contenedorContacto{
+    background-color: #ACBB78;
+}
+
+  
+/*Estilo pagina: Terminos y condiciones*/
+.personalizar-accordion-header {
+    background-color: #ACBB78;
+    color: #2a2929;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #958C4B;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#accordionTerminosYcond{
+    text-align: justify;
+}
+
+/*Estilo pagina registro y login*/
+#ContenedorLogin{
+    background:#ACBB78;
+    max-width: 75%;
+    border-radius:20px;
+    padding: 1rem;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+}
+
+#ContenedorRegistro{
+    background:#ACBB78;
+    max-width: 75%;
+    border-radius:20px;
+    padding: 1rem;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+}
+
+#ContenedorAltaProductos{
+    background:#ACBB78;
+    max-width: 75%;
+    border-radius:20px;
+    padding: 1rem;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+}
+
+#ContenedorEditarProductos{
+    background:#ACBB78;
+    max-width: 75%;
+    border-radius:20px;
+    padding: 1rem;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+}
+
+/*Estilo barra perfil cliente/administrador y boton cerrar sesion, iniciar sesion / crear cuenta */
+#navbarNavSecundaria .d-flex a:hover, #navbarNavSecundaria .d-flex a:active, #BotonLoginCerrarSesion a:hover, #BotonLoginCerrarSesion a:active, #BotonLoginCrearCuenta a:hover, #BotonLoginCrearCuenta a:active{
+    font-weight: bold; /* Hace que el texto sea más negrita */
+    text-decoration: underline; /* Agrega un subrayado */
+}
+
+
+/* Tabla crud productos/usuarios */
+
+/* Cambiar el color de fondo de la tabla */
+.custom-table {
+    background-color: #f8f9fa; /* Fondo claro */
+    border: 1px solid #434343;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Cambiar el color de fondo de las celdas de la cabecera */
+.custom-table thead th {
+    background-color: #354b38; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/*Fila agregar nueva categoria*/
+.custom-table tbody tr td {
+    background-color: #d4f5d7; /* Fondo */
+    color: #000000; /* Texto negro */
+}
+
+#TablaCategorias{
+    width: 1000px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-mode {
+    display: none;
+}
+
+
+
+
+/* Estilos tarjetas catalogo*/
+.card .card-catalogo {
+    overflow: hidden;
+    background-color: #ACBB78;
+    border-color: #ACBB78;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card .card-catalogo:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.6);
+    transform: translateY(-3%);
+}
+
+.card-body .card-body-catalogo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}

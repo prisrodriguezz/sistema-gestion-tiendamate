@@ -1,0 +1,38 @@
+
+# =========================
+# CODEIGNITER 4 - CORE
+# =========================
+.env
+.env.*
+!env.example
+
+# =========================
+# DEPENDENCIAS
+# =========================
+vendor/
+
+# =========================
+# WRITEABLE (archivos generados)
+# =========================
+writable/cache/
+writable/logs/
+writable/session/
+writable/debugbar/
+
+# =========================
+# SISTEMA / OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# XAMPP / LOCAL DEV
+# =========================
+*.log
+*.tmp
+
+# =========================
+# IDEs (opcional)
+# =========================
+.vscode/
+.idea/

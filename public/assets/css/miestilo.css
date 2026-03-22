@@ -1,0 +1,169 @@
+h2{ font-family: verdana;/*tipo de letras*/
+    text-align: justufy;/*alineación del texto*/
+    color: red; /*color de la fuente*/
+    font-size:24 px;/*tamaño de la fuente*/
+    font-style: italic; /*estilo */
+    font-weight: bold; /* negrito o fuerte*/ }
+body {
+    background-color: lightblue; /*color de fondo del body*/
+    } /* color y alineación de la etiqueta h1*/
+h1 {
+    color: white;
+    font-weight: bold;/* negrito o fuerte*/
+    text-align: center;/*alineación*/ }
+
+/* Definición de la clase 1 */
+.clase1 {
+    text-align: center; /* Centrar el texto */
+    font-weight: bold; /* Texto en negrita */
+    font-style: italic; /* Texto en cursiva */
+}
+.q{color:red}
+
+/* Clase con nuevo estilo para la division */
+.miDivision {
+    color: purple; /* Color del texto */
+    border: 2px solid black; /* Borde sólido de 2px de grosor y color negro */
+    padding: 10px; /* Espaciado interno de 10px */
+    margin: 20px; /* Margen externo de 20px */
+    text-align: center;/*alineación*/
+}
+
+/* Estilos para eliminar márgenes y paddings por defecto y dar estilo a las secciones */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #92a8d1; /* Color de fondo para el encabezado */
+    padding: 20px; /* Espaciado interno para el encabezado */
+    text-align: center; /* Alineación del texto en el centro */
+}
+footer {
+    background-color: GoldenRod; /* Color de fondo para el pie de página */
+    padding: 10px; /* Espaciado interno para el pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    margin: 10px 200px;
+}
+
+/* Nuevos estilos */
+.titulo {
+    background-color: yellowgreen;
+    margin: 20px;
+}
+.parrafo {
+    background-color: blanchedalmond;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+}
+
+
+/* Estilo para el menú de navegación */
+.menu {
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+}
+
+.menu ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+}
+
+.menu ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+.menu ul li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.menu ul li a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}h2{ font-family: verdana;/*tipo de letras*/
+    text-align: justufy;/*alineación del texto*/
+    color: red; /*color de la fuente*/
+    font-size:24 px;/*tamaño de la fuente*/
+    font-style: italic; /*estilo */
+    font-weight: bold; /* negrito o fuerte*/ }
+body {
+    background-color: lightblue; /*color de fondo del body*/
+    } /* color y alineación de la etiqueta h1*/
+h1 {
+    color: white;
+    font-weight: bold;/* negrito o fuerte*/
+    text-align: center;/*alineación*/ }
+
+/* Definición de la clase 1 */
+.clase1 {
+    text-align: center; /* Centrar el texto */
+    font-weight: bold; /* Texto en negrita */
+    font-style: italic; /* Texto en cursiva */
+}
+.q{color:red}
+
+/* Clase con nuevo estilo para la division */
+.miDivision {
+    color: purple; /* Color del texto */
+    border: 2px solid black; /* Borde sólido de 2px de grosor y color negro */
+    padding: 10px; /* Espaciado interno de 10px */
+    margin: 20px; /* Margen externo de 20px */
+    text-align: center;/*alineación*/
+}
+
+/* Estilos para eliminar márgenes y paddings por defecto y dar estilo a las secciones */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #92a8d1; /* Color de fondo para el encabezado */
+    padding: 20px; /* Espaciado interno para el encabezado */
+    text-align: center; /* Alineación del texto en el centro */
+}
+footer {
+    background-color: GoldenRod; /* Color de fondo para el pie de página */
+    padding: 10px; /* Espaciado interno para el pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    margin: 10px 200px;
+}
+
+/* Nuevos estilos */
+.titulo {
+    background-color: yellowgreen;
+    margin: 20px;
+}
+.parrafo {
+    background-color: blanchedalmond;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+}
+
+
+/* Estilo para el menú de navegación */
+.menu {
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+}
+
+.menu ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+}
+
+.menu ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+.menu ul li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.menu ul li a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
