@@ -6,6 +6,11 @@ El sistema permite la gestión de usuarios, productos y ventas mediante una inte
 
 ---
 
+## 🎥 Demo del sistema
+https://youtu.be/FTu_uJ6dmmQ
+
+---
+
 ## 🚀 Funcionalidades
 
 - Gestión de usuarios (CRUD)
