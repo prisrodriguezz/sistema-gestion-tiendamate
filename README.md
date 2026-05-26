@@ -91,8 +91,3 @@ docs/        → Documentación (ERS)
 
 Priscila Rodríguez  
 Estudiante de Licenciatura en Sistemas de la Información
-
----
-
-## ⭐ Nota
-Este proyecto fue desarrollado con fines académicos, aplicando buenas prácticas de desarrollo.
